@@ -9,7 +9,7 @@ namespace MyWebApp.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            //throw new Exception("fail");
+            throw new Exception("fail");
         }
     }
 }
