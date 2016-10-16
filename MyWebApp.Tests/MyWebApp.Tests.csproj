@@ -53,6 +53,12 @@
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MyWebApp\MyWebApp.csproj">
+      <Project>{dc767455-61ee-4e45-af72-6dd6af82fc9c}</Project>
+      <Name>MyWebApp</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
