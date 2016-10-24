@@ -15,6 +15,7 @@ namespace MyWebApp.Controllers
     [Authorize]
     public class AccountController : Controller
     {
+        ss
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
