@@ -10,10 +10,8 @@ namespace MyWebApp.Tests
         [TestMethod]
         public void TestMethod1()
         {
-            IndexViewModel sut = new IndexViewModel();
-            sut.BrowserRemembered = true;
-
-            //throw new Exception("fail");
+            Dummy sut = new Dummy();
+            Assert.IsTrue(sut.SomeDummyMethodThatShouldReturnTrue());
         }
     }
 }
