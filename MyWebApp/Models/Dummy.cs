@@ -9,7 +9,7 @@ namespace MyWebApp.Models
     {
         public bool SomeDummyMethodThatShouldReturnTrue()
         {
-            return false;
+            return true;
         }
     }
 }
