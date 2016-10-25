@@ -7,5 +7,9 @@ namespace MyWebApp.Models
 {
     public class Dummy
     {
+        public bool SomeDummyMethodThatShouldReturnTrue()
+        {
+            return false;
+        }
     }
 }
